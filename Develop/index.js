@@ -10,56 +10,58 @@ const questions = [
         message: "What is your GitHub account?" //go to question section
     },
 
-    {
-        type: "input",
-        name: "email",
-        message: "What is your email?" //go to question section
-    },
+    // {
+    //     type: "input",
+    //     name: "email",
+    //     message: "What is your email?" //go to question section
+    // },
 
-    {
-        type: "input",
-        name: "title",
-        message: "What is your project name?"
-    },
+    // {
+    //     type: "input",
+    //     name: "title",
+    //     message: "What is your project name?"
+    // },
 
-    {
-        type: "input",
-        name: "description",
-        message: "What is this project about?"
-    },
+    // {
+    //     type: "input",
+    //     name: "description",
+    //     message: "What is this project about?"
+    // },
 
 
-    {
-        type: "input",
-        name: "installation",
-        message: "What are the installation instructions users need to follow"
-    },
+    // {
+    //     type: "input",
+    //     name: "installation",
+    //     message: "What are the installation instructions users need to follow"
+    // },
 
-    {
-        type: "input",
-        name: "usage",
-        message: "How to use this app?"
-    },
+    // {
+    //     type: "input",
+    //     name: "usage",
+    //     message: "How to use this app?"
+    // },
 
-    {
-        type: "list",
-        name: "license",
-        choices: ["The MIT License", "GNU General Public License family", "Apache License", "PostgreSQL License", "N/A"]
-        //go to badge section
-    },
+    // {
+    //     type: "list",
+    //     name: "license",
+    //     choices: ["The MIT License", "GNU General Public License family", "Apache License", "PostgreSQL License", "N/A"]
+    //     //go to badge section
+    // },
 
-    {
-        type: "input",
-        name: "contributing",
-        message: "Any info about contributing to this project?"
-    },
+    // {
+    //     type: "input",
+    //     name: "contributing",
+    //     message: "Any info about contributing to this project?"
+    // },
 
-    {
-        type: "input",
-        name: "tests",
-        message: "Any info about tests?"
-    },
+    // {
+    //     type: "input",
+    //     name: "tests",
+    //     message: "Any info about tests?"
+    // },
 ];
+
+
 
 // TODO: Create a function to write README file
 function writetoFile(fileName, data) {
@@ -78,3 +80,5 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
